@@ -8,7 +8,7 @@
                 <li class="font-medium text-sm text-gray-400 uppercase">Contenido</li>
                 @foreach ($course->posts as $post)
                     <li class="flex items-center text-gray-600 mt-2">
-                        {{ $post->name }}
+                        {{ $post->title }}
                         @if ($post->free)
                             <span
                                 class="text-xs text-gray-500 font-semibold px-2 bg-gray-300 rounded-full ml-auto">Gratis</span>
